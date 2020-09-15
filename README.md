@@ -9,7 +9,7 @@ CGI Getting Started. Ref. https://httpd.apache.org/docs/2.4/en/howto/cgi.html
 
 Before
 ```
-	# LoadModule cgid_module modules/mod_cgid.so
+  # LoadModule cgid_module modules/mod_cgid.so
 ```
 
 After
