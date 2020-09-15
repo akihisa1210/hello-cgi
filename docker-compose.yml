@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  webserver:
+    image: httpd:2.4.46
+    volumes:
+      - .:/workspace
+      - ./cgi-bin:/usr/local/apache2/cgi-bin
+      - ./httpd.conf:/usr/local/apache2/conf/httpd.conf
+    ports:
+      - 8080:80
